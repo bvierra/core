@@ -23,9 +23,6 @@ roles:
       - implicit
     requires:
       - network-server
-      - provisioner-dhcp-database
-      - provisioner-repos
-      - provisioner-docker-setup
       - network-lldpd
     conflicts:
       - crowbar-managed-node
@@ -45,7 +42,7 @@ roles:
       - ntp-client
       - network-lldpd
   - name: crowbar-hardware-configured
-    description: "Crowbar Harware Configured Checkpoint"
+    description: "Crowbar Hardware Configured Checkpoint"
     jig: noop
     flags:
       - implicit
