@@ -855,7 +855,3 @@ gems:
     - delayed_job
     - daemons
     - diplomat-(~>0.2.1)
-git:
-  commit: b4777f97a19bf9419646dbb64302466fa68d47a9
-  date: Mon, 16 Feb 2015 10:14:25 -0600
-build_version: 2.1.0.4476.1
